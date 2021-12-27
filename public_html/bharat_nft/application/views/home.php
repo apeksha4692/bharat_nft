@@ -55,15 +55,15 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav m-auto">
             <li class="dropdown animation" data-animation="fadeInDown" data-animation-delay="1.1s">
-              <a data-toggle="dropdown" class="nav-link active" href="index.html">Home</a>
+              <a  class="nav-link active" href="<?php echo base_url(); ?>">Home</a>
              
             </li>
             <li class="animation" data-animation="fadeInDown" data-animation-delay="1.2s">
-              <a class="nav-link page-scroll nav_item nav_link_clr" href="Bharat NFT-world-coin.html">Bharat NFT</a>
+              <a class="nav-link page-scroll nav_item nav_link_clr" href="javascript:;">Bharat NFT</a>
             </li>
             <li class="animation" data-animation="fadeInDown" data-animation-delay="1.3s">
               <a class="nav-link page-scroll nav_item nav_link_clr"
-                href="javascript:;" target="_blank">Whitepaper</a>
+                href="javascript:;">Whitepaper</a>
             </li>
             <!-- <li class="animation" data-animation="fadeInDown" data-animation-delay="1.3s">
               <a class="nav-link page-scroll nav_item nav_link_clr" href="audit.html">Audit</a>
@@ -100,19 +100,27 @@
               </div>
             </li>
             <li class="animation" data-animation="fadeInDown" data-animation-delay="1.5s"><a
-                class="nav-link page-scroll nav_item nav_link_clr" href="faq.html">FAQ</a></li>
+                class="nav-link page-scroll nav_item nav_link_clr" href="#faq">FAQ</a></li>
             <li class="animation" data-animation="fadeInDown" data-animation-delay="1.6s"><a
                 class="nav-link page-scroll nav_item nav_link_clr"
-                href=""
+                href="https://ropsten.etherscan.io/address/0x49c1b2cfa2e74ef6cffd7bc2b190fa6f9c5a0e01#code"
                 target="_blank">Contract</a></li>
             
-            <li class="animation" data-animation="fadeInDown" data-animation-delay="1.8s"><a class="nav-link nav_item"
-                href="news.html">News</a></li>
+            <!-- <li class="animation" data-animation="fadeInDown" data-animation-delay="1.8s"><a class="nav-link nav_item"
+                href="news.html">News</a></li> -->
                 <li class="animation" data-animation="fadeInDown" data-animation-delay="1.2s"><a
-                  class="nav-link page-scroll nav_item nav_link_clr" href="contact.html">Contact</a></li>
-            <li class="animation" data-animation="fadeInDown" data-animation-delay="1.7s"><a
+                  class="nav-link page-scroll nav_item nav_link_clr" href="#roadmap">Roadmap</a></li>
+                <li class="animation" data-animation="fadeInDown" data-animation-delay="1.2s"><a
+                  class="nav-link page-scroll nav_item nav_link_clr" href="#contact">Contact</a></li>
+            <!-- <li class="animation" data-animation="fadeInDown" data-animation-delay="1.7s"><a
                 class="nav-link page-scroll nav_item nav_link_clr" href="javascript:;" data-bs-toggle="tooltip"
                 data-bs-placement="bottom" title="Newsletter" data-toggle="modal" data-target="#envo_popup"><i
+                  class="far fa-envelope news_icon"></i></a></li> -->
+                  <li class="animation" data-animation="fadeInDown" data-animation-delay="1.2s"><a
+                    class="nav-link page-scroll nav_item nav_link_clr" href="#about">About</a></li>
+                  <li class="animation" data-animation="fadeInDown" data-animation-delay="1.7s"><a
+                class="nav-link page-scroll nav_item nav_link_clr" href="#footer" data-bs-toggle="tooltip"
+                data-bs-placement="bottom" title="Newsletter"><i
                   class="far fa-envelope news_icon"></i></a></li>
           </ul>
           <ul class="navbar-nav nav_btn align-items-center">
@@ -298,10 +306,8 @@
               <span>Bharat NFT</span> Lorem ipsum dolor sit amet consectetur adipisicing elit. 
             </h1>
             <p class="animation" data-animation="fadeInUp" data-animation-delay="1.3s">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-               Libero nihil soluta tenetur ea, illo recusandae quisquam veniam totam,
-                sapiente mollitia beatae eligendi, consequatur omnis perferendis ad debitis atque 
-                tempora sequi.
+            Bharat NFT is a Community-Driven Multi-Chain IDO/TGE platform with Launchpad Aggregation, Unique Distribution Model, and more.
+Bharat NFT aims to provide the much-needed early-stage support for projects through its launchpad aggregation and IDO/TGE services while offering great incentives for Bharat stakers through in-house protocols.
             </p>
             <div class="newsletter_form pb-4">
               <form class="subscribe_form animation" data-animation="fadeInUp" data-animation-delay="1.4s">
@@ -396,31 +402,30 @@
           </div>
         </div>
 
-        <div class="col-lg-4 col-md-6 col-sm-12">
+        <!-- <div class="col-lg-4 col-md-6 col-sm-12">
           <div class="box_wrap text-center animation" data-animation="fadeInUp" data-animation-delay="1s">
             <i class="fas fa-sync-alt web_icon"></i>
             <h4>Anti Snipe</h4>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero nihil soluta tenetur ea,</p>
+            <p>Buy, Sell, and transfer orders worth over 0.05% of the total supply will not be approved. Perform transfers over 0.05% supply, 3 BNB penalty sent to reward pool.</p>
           </div>
-        </div>
-        <div class="col-lg-4  col-md-6 col-sm-12">
-          <div class="box_wrap text-center animation" data-animation="fadeInUp" data-animation-delay="1s">
+        </div> -->
+        <!-- <div class="col-lg-4  col-md-6 col-sm-12">
+          <div class="box_wrap text-center animation" data-animation="fadeInUp" data-animation-delay="1s"> -->
             <!-- <img src="<?php echo base_url(); ?>assest/website/images/service_icon5.png" alt="service_icon5" /> -->
-            <i class="fas fa-globe web_icon"></i>
+            <!-- <i class="fas fa-globe web_icon"></i>
             <h4>Bharat NFT</h4>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero nihil soluta tenetur ea,</p>
+            <p>A high-performing, cohesive, and progressive ecosystem enabling creatives to foster creativity without the compromise of creative freedom. a unique and entirely different digital oasis for all.</p>
           </div>
-        </div>
-        <div class="col-lg-4 col-md-6 col-sm-12">
+        </div> -->
+        <!-- <div class="col-lg-4 col-md-6 col-sm-12">
           <div class="box_wrap text-center animation" data-animation="fadeInUp" data-animation-delay="1s">
             <i class="fas fa-hand-holding-heart web_icon"></i>
             <h4>Buyback!</h4>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero nihil soluta tenetur ea,
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero nihil soluta tenetur ea,
+            Toon Orca! Toon world's very own A.I to ensure we keep the supply in check. As a Deflationary measure, Toon Orca will run sweeps to buyback $TOON to payout and burn to ensure we hedge for inflation.
             </p>
           </div>
-        </div>
+        </div> -->
       </div>
     </div>
   </section>
@@ -470,17 +475,13 @@
           <div class="title_default_light title_border">
             <h4 class="animation" data-animation="fadeInUp" data-animation-delay="0.2s">About Bharat NFT</h4>
             <p class="animation" data-animation="fadeInUp" data-animation-delay="0.4s">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Libero nihil soluta tenetur ea, illo recusandae quisquam veniam totam, 
-              sapiente mollitia beatae eligendi, consequatur omnis perferendis ad debitis atque tempora sequi.
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero nihil soluta tenetur ea,
-              illo recusandae quisquam veniam totam, sapiente mollitia beatae eligendi, 
-              consequatur omnis perferendis ad debitis atque tempora sequi.
+            Bharat NFT is a Community-Driven Multi-Chain IDO/TGE platform with Launchpad Aggregation, Unique Distribution Model, and more.
+Bharat NFT aims to provide the much-needed early-stage support for projects through its launchpad aggregation and IDO/TGE services while offering great incentives for Bharat stakers through in-house protocols.
             </p>
             <!-- <p class="animation" data-animation="fadeInUp" data-animation-delay="0.8s">which empowers people to not be
               marginalized by governments and financial institutions. Bitcoin is freedom. </p> -->
           </div>
-          <a href="https://Bharat NFT.world/" target="_blank" class="btn btn-default btn-radius animation"
+          <a href="javascript:;" class="btn btn-default btn-radius animation"
             data-animation="fadeInUp" data-animation-delay="1s">Enter Bharat NFT <i
               class="ion-ios-arrow-thin-right"></i></a>
         </div>
@@ -651,10 +652,17 @@
               <div class="timeline_box complete">
                 <div class="timeline_inner">
                   <div class="timeline_circle"></div>
-                  <h6 class="animation" data-animation="fadeInUp" data-animation-delay="0.3s">MM YY</h6>
+                  <h6 class="animation" data-animation="fadeInUp" data-animation-delay="0.3s">January 2022</h6>
                   <p class="animation" data-animation="fadeInUp" data-animation-delay="0.4s">
       
-                    - Lorem ipsum dolor sit amet consectetur
+                  <ul class="road_map_content">
+                    <li>- Toon ORCA deployment (buyback begins)</li>
+                    <li>- Creatives showcase preview</li>
+                    <li>- Alture World digital experience show</li>
+                    <li>- Holiday giveaways</li>
+                    <li>- Creatives holiday NFT airdrop celebration</li>
+                    <li>- GOAL 100000 wallet holders</li>
+                  </ul>
                   </p>
 
                 </div>
@@ -664,10 +672,18 @@
               <div class="timeline_box complete">
                 <div class="timeline_inner">
                   <div class="timeline_circle"></div>
-                  <h6 class="animation" data-animation="fadeInUp" data-animation-delay="0.3s">MM YY</h6>
+                  <h6 class="animation" data-animation="fadeInUp" data-animation-delay="0.3s">February 2022</h6>
                   <p class="animation" data-animation="fadeInUp" data-animation-delay="0.4s">
                  
-                    - Lorem ipsum dolor sit amet consectetur
+                  <ul class="road_map_content">
+                    <li>- Alture World V1 launch</li>
+                    <li>- Toon World exchange launch</li>
+                    <li>- Alture.io announcement</li>
+                    <li>- Creatives global launch</li>
+                    <li>- Alture.finance launch</li>
+                    <li>- Alture World tour launch pre-sale</li>
+                    <li>- GOAL 250000 wallet holders</li>
+                  </ul>
                   </p>
 
                 </div>
@@ -677,11 +693,14 @@
               <div class="timeline_box complete current">
                 <div class="timeline_inner">
                   <div class="timeline_circle"></div>
-                  <h6 class="animation" data-animation="fadeInUp" data-animation-delay="0.3s">MM YY</h6>
+                  <h6 class="animation" data-animation="fadeInUp" data-animation-delay="0.3s">March 2022</h6>
                   <p class="animation" data-animation="fadeInUp" data-animation-delay="0.4s">
                   <ul class="road_map_content">
-                    <li>- Lorem ipsum dolor sit amet consectetur</li>
-                    <li>- Lorem ipsum dolor sit </li>
+                  <li>- Alture.io showcase</li>
+                    <li>- New exchange listing</li>
+                    <li>- Real estate announcement……. (Macro studios)</li>
+                    <li>- Live studio build announcement</li>
+                    <li>- GOAL 500000 wallet holders</li>
                   </ul>
                   </p>
                 </div>
@@ -691,13 +710,10 @@
               <div class="timeline_box">
                 <div class="timeline_inner">
                   <div class="timeline_circle"></div>
-                  <h6 class="animation" data-animation="fadeInUp" data-animation-delay="0.3s">MM YY</h6>
+                  <h6 class="animation" data-animation="fadeInUp" data-animation-delay="0.3s">April 2022</h6>
                   <p class="animation" data-animation="fadeInUp" data-animation-delay="0.4s">
                   <ul class="road_map_content">
-                    <li>- Lorem ipsum dolor sit amet consectetur</li>
-                    <li>- Lorem ipsum dolor sit amet consectetur</li>
-                    <li>- Lorem ipsum dolor sit amet </li>
-                    <li>- Lorem ipsum dolor sit </li>
+                    <li>- TBA, a lot of excitement awaits</li>
                   </ul>
                   </p>
                 </div>
@@ -707,16 +723,10 @@
               <div class="timeline_box">
                 <div class="timeline_inner">
                   <div class="timeline_circle"></div>
-                  <h6 class="animation" data-animation="fadeInUp" data-animation-delay="0.3s">MM YY</h6>
+                  <h6 class="animation" data-animation="fadeInUp" data-animation-delay="0.3s">May 2022</h6>
                   <p class="animation" data-animation="fadeInUp" data-animation-delay="0.4s">
-                  <ul class="road_map_content">
-                    <li>- Lorem ipsum dolor sit amet consectetur </li>
-                    <li>- Lorem ipsum dolor sit amet consectetur</li>
-                    <li>- Lorem ipsum</li>
-                    <li>- Lorem ipsum dolor </li>
-                    <li>- Lorem ipsum dolor sit </li>
-                    <li>- Lorem ipsum dolor sit amet consectetur</li>
-                  </ul>
+                  
+                  - Toon World Coin &amp; Alture World beginnings
                   </p>
                 </div>
               </div>
@@ -725,17 +735,34 @@
               <div class="timeline_box">
                 <div class="roadmap_inner">
                   <div class="timeline_circle"></div>
-                  <h6 class="animation" data-animation="fadeInUp" data-animation-delay="0.3s">MM YY</h6>
+                  <h6 class="animation" data-animation="fadeInUp" data-animation-delay="0.3s">June 2022</h6>
+                  <p class="animation" data-animation="fadeInUp" data-animation-delay="0.4s">
+                  
+                  - Toon World Coin &amp; Alture World beginnings
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="item">
+              <div class="timeline_box">
+                <div class="timeline_inner">
+                  <div class="timeline_circle"></div>
+                  <h6 class="animation" data-animation="fadeInUp" data-animation-delay="0.3s">July 2022</h6>
+                  <p class="animation" data-animation="fadeInUp" data-animation-delay="0.4s">
+                  - Build Toon World Coin &amp; Prepare Alture world live build
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="item">
+              <div class="timeline_box">
+                <div class="timeline_inner">
+                  <div class="timeline_circle"></div>
+                  <h6 class="animation" data-animation="fadeInUp" data-animation-delay="0.3s">August 2022</h6>
                   <p class="animation" data-animation="fadeInUp" data-animation-delay="0.4s">
                   <ul class="road_map_content">
-                    <li>- Lorem ipsum dolor sit amet </li>
-                    <li>- Lorem ipsum dolor sit amet consectetur</li>
-                    <li>- Lorem ipsum dolor sit amet consectetur</li>
-                    <li>- Lorem ipsum dolor</li>
-                    <li>- Lorem ipsum dolor </li>
-                    <li>- Lorem ipsum dolor sit amet </li>
-                    <li>- Lorem ipsum dolor sit amet consectetur</li>
-                    <li>- Lorem ipsum dolor sit amet </li>
+                    <li>- Initial coin distribution and marketing</li>
+                    <li>- Private pre-sale</li>
                   </ul>
                   </p>
                 </div>
@@ -745,17 +772,13 @@
               <div class="timeline_box">
                 <div class="timeline_inner">
                   <div class="timeline_circle"></div>
-                  <h6 class="animation" data-animation="fadeInUp" data-animation-delay="0.3s">MM YY</h6>
+                  <h6 class="animation" data-animation="fadeInUp" data-animation-delay="0.3s">September 2022</h6>
                   <p class="animation" data-animation="fadeInUp" data-animation-delay="0.4s">
                   <ul class="road_map_content">
-                    <li>- Lorem ipsum dolor sit amet consectetur</li>
-                    <li>- Lorem ipsum dolor sit amet consectetur</li>
-                    <li>- Lorem ipsum dolor sit amet consectetur</li>
-                    <li>- Lorem ipsum dolor sit amet </li>
-                    <li>- Lorem ipsum dolor sit amet consectetur</li>
-                    <li>- Lorem ipsum dolor sit </li>
-                    <li>- Lorem ipsum dolor sit amet consectetur</li>
-                    <li>- Lorem ipsum dolor sit amet consectetur</li>
+                    <li>- Public pre-sale</li>
+                    <li>- Toon World coin giveaway *additional details in giveaway channel</li>
+                    <li>- GOAL 5000 wallet holders</li>
+                    <li>- Pancakeswap, Apeswap</li>
                   </ul>
                   </p>
                 </div>
@@ -765,15 +788,15 @@
               <div class="timeline_box">
                 <div class="timeline_inner">
                   <div class="timeline_circle"></div>
-                  <h6 class="animation" data-animation="fadeInUp" data-animation-delay="0.3s">MM YY</h6>
+                  <h6 class="animation" data-animation="fadeInUp" data-animation-delay="0.3s">October 2022</h6>
                   <p class="animation" data-animation="fadeInUp" data-animation-delay="0.4s">
                   <ul class="road_map_content">
-                    <li>- Lorem ipsum dolor sit amet consectetur</li>
-                    <li>- Lorem ipsum dolor sit amet </li>
-                    <li>- Lorem ipsum dolor sit amet consectetur</li>
-                    <li>- Lorem ipsum dolor </li>
-                    <li>- Lorem ipsum dolor sit amet consectetur</li>
-                    <li>- Lorem ipsum dolor sit amet consectetur</li>
+                    <li>- Launch Alture.World careers. We are expanding the development team. </li>
+                    <li>- Alture World NFT collectors NFT Airdrop</li>
+                    <li>- CoinMarketCap</li>
+                    <li>- Coingecko</li>
+                    <li>- GOAL- 10000 wallet holders</li>
+                    <li>- Toon World billboards (Los Angeles, Miami, and New York)</li>
                   </ul>
                   </p>
                 </div>
@@ -783,47 +806,19 @@
               <div class="timeline_box">
                 <div class="timeline_inner">
                   <div class="timeline_circle"></div>
-                  <h6 class="animation" data-animation="fadeInUp" data-animation-delay="0.3s">MM YY</h6>
+                  <h6 class="animation" data-animation="fadeInUp" data-animation-delay="0.3s">November 2022</h6>
                   <p class="animation" data-animation="fadeInUp" data-animation-delay="0.4s">
                   <ul class="road_map_content">
-                    <li>- Lorem ipsum dolor sit amet </li>
-                    <li>- Lorem ipsum dolor </li>
-                    <li>- Lorem ipsum dolor </li>
-                    <li>- Lorem ipsum dolor sit amet consectetur</li>
-                    <li>- Lorem ipsum dolor sit amet </li>
-                    <li>- Lorem ipsum dolor sit amet consectetur</li>
-                    <li>- Lorem ipsum dolor sit </li>
-                  </ul>
-                  </p>
-                </div>
-              </div>
-            </div>
-            <div class="item">
-              <div class="timeline_box">
-                <div class="timeline_inner">
-                  <div class="timeline_circle"></div>
-                  <h6 class="animation" data-animation="fadeInUp" data-animation-delay="0.3s">MM YY</h6>
-                  <p class="animation" data-animation="fadeInUp" data-animation-delay="0.4s">
-                  <ul class="road_map_content">
-                    <li>- Lorem ipsum dolor sit</li>
-                    <li>- Lorem ipsum dolor sit amet </li>
-                    <li>- Lorem ipsum dolor sit amet consectetur</li>
-                    <li>- Lorem ipsum dolor sit amet consectetur</li>
-                    <li>- Lorem ipsum dolor sit amet </li>
-                  </ul>
-                  </p>
-                </div>
-              </div>
-            </div>
-            <div class="item">
-              <div class="timeline_box">
-                <div class="timeline_inner">
-                  <div class="timeline_circle"></div>
-                  <h6 class="animation" data-animation="fadeInUp" data-animation-delay="0.3s">MM YY</h6>
-                  <p class="animation" data-animation="fadeInUp" data-animation-delay="0.4s">
-                  <ul class="road_map_content">
-                    <li>- Lorem ipsum dolor sit amet consectetur</li>
-                  </ul>
+                    <li>- Alture World creatives touring</li>
+                    <li>- Creatives early onboarding, early showcase</li>
+                    <li>- Charitable giving and Alture World promise; and mission to make a
+                      change</li>
+                    <li>- BETA TESTING INVITES</li>
+                    <li>- TOON WORLD COIN GIVEAWAY</li>
+                    <li>- New exchange listing</li>
+                    <li>- Limited edition creatives NFT capsule airdrop</li>
+                    <li>- GOAL 25000 wallet holders</li>
+                  </ul>>
                   </p>
                 </div>
               </div>
@@ -876,31 +871,57 @@
                 <div class="card animation" data-animation="fadeInUp" data-animation-delay="0.4s">
                   <div class="card-header">
                     <h6 class="mb-0"> <a data-toggle="collapse" href="#collapseOne" aria-expanded="true"
-                        aria-controls="collapseOne"><span>Lorem ipsum dolor sit amet consectetur adipisicing elit.</span><ins></ins></a></h6>
+                        aria-controls="collapseOne"><span>What is cryptocurrency?</span><ins></ins></a></h6>
                   </div>
                   <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion1">
-                    <div class="card-body">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tempore repudiandae eius, aliquid illum hic saepe rerum vero? Corporis quia, architecto neque eligendi perferendis incidunt adipisci praesentium quis tempore, ipsa reiciendis! <span class="faq_highlightedtxt">peer-to-peer (P2P)</span>
-                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tempore repudiandae eius, aliquid illum hic saepe rerum vero? Corporis quia, architecto neque eligendi perferendis incidunt adipisci praesentium quis tempore, ipsa reiciendis!</div>
+                    <div class="card-body">A digital currency secured by cryptography is typically used as a
+                      medium of exchange within a <span class="faq_highlightedtxt">peer-to-peer (P2P)</span> digital
+                      economic
+                      system. The use of cryptographic techniques is what ensures that
+                      these systems are entirely immune to fraud and counterfeiting. Most
+                      cryptocurrency systems work through a decentralized framework that
+                      is collectively maintained by a distributed network of computers.</div>
                   </div>
                 </div>
                 <div class="card animation" data-animation="fadeInUp" data-animation-delay="0.6s">
                   <div class="card-header" id="headingTwo">
                     <h6 class="mb-0"> <a class="collapsed" data-toggle="collapse" href="#collapseTwo"
-                        aria-expanded="false" aria-controls="collapseTwo"><span>Lorem ipsum dolor sit amet consectetur adipisicing elit.</span><ins></ins></a>
+                        aria-expanded="false" aria-controls="collapseTwo"><span>What is BEP20?</span><ins></ins></a>
                     </h6>
                   </div>
                   <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion1">
-                    <div class="card-body">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tempore repudiandae eius, aliquid illum hic saepe rerum vero? Corporis quia, architecto neque eligendi perferendis incidunt adipisci praesentium quis tempore, ipsa reiciendis!</div>
+                    <div class="card-body">BEP-20 is a <span class="faq_highlightedtxt">token</span> standard on Binance
+                      Smart Chain that
+                      extends <span class="faq_highlightedtxt">ERC-20</span>, the most common Ethereum token standard.
+                      You
+                      can think of it as a blueprint for tokens that defines how they can be
+                      spent, who can spend them, and other rules for their usage. Due to its
+                      similarity to Binance Chain’s <span class="faq_highlightedtxt">BEP-2</span> and Ethereum’s ERC-20,
+                      it’s
+                      compatible with both. BEP-20 was conceived as a technical
+                      specification for Binance Smart Chain, with the goal of providing a
+                      flexible format for developers to launch a range of different tokens.
+                      These could represent anything from shares in a business to dollars
+                      stored in a bank vault (i.e., a <span class="faq_highlightedtxt">stablecoin</span>)..</div>
                   </div>
                 </div>
                 <div class="card animation" data-animation="fadeInUp" data-animation-delay="0.8s">
                   <div class="card-header" id="headingThree">
                     <h6 class="mb-0"> <a class="collapsed" data-toggle="collapse" href="#collapseThree"
-                        aria-expanded="false" aria-controls="collapseThree"><span>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        aria-expanded="false" aria-controls="collapseThree"><span>What is the BharatNft
+                          coin?
                           </span><ins></ins></a> </h6>
                   </div>
                   <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion1">
-                    <div class="card-body">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolorem esse est iusto hic? Beatae deleniti at totam sit ipsam blanditiis modi iste! Tempora nostrum quod dicta sunt rem vel earum. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum, minima! Velit porro cumque magnam rem animi. Suscipit, minima in alias ipsum rem tempore. Tenetur, corporis est! Repellendus aliquam explicabo ut. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Amet, ipsum. Aliquam sed iure debitis itaque obcaecati magnam voluptatem laboriosam, expedita esse asperiores cumque dolorum! Minima eaque dolor delectus nihil ut?
+                    <div class="card-body">BharatNft coin is BEP20 Token built on Binance Smart Chain. Not another meme
+                      coin, nor is it a pump and dump. The intention and purpose of the BharatNft coin utility token is
+                      to revolutionize the creative economy with blockchain technology and introduce a suite of products
+                      globally for creatives and entertainment media. Creative independence, effective content
+                      distribution, and engagement globally is our core principles. Creating a new digital oasis to
+                      create, engage, and connect through the power of the BharatNft coin.<br><br>BharatNft coin will
+                      be
+                      powering five core oasis +more to come as we empower the community to create, engage, and connect.
+                      We’ll be announcing our five core oasis as time progress and as we release each one.
                       <ul class="tw_coin_ul">
                         <li><a href="https://Bharat NFT.world/" target="_blank">Bharat NFT.world</a></li>
                         <li><a href="http://Bharat NFT.io/" target="_blank">Bharat NFT.io</a></li>
@@ -914,11 +935,15 @@
                 <div class="card animation" data-animation="fadeInUp" data-animation-delay="1s">
                   <div class="card-header" id="headingFour">
                     <h6 class="mb-0"> <a class="collapsed" data-toggle="collapse" href="#collapseFour"
-                        aria-expanded="false" aria-controls="collapseFour"><span>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        aria-expanded="false" aria-controls="collapseFour"><span>Which wallets are
+                          supported?
                           </span><ins></ins></a> </h6>
                   </div>
                   <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordion1">
-                    <div class="card-body">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi delectus at hic eius fugiat omnis fuga nam veniam accusamus deleniti odio minus iusto dolorem totam, asperiores amet doloribus explicabo odit?.<br>
+                    <div class="card-body">We recommend Trust Wallet or Metamask. Otherwiseany personal
+                      preferences works as well as long as Bianca Smart Chain Is
+                      supported. Here are some links to Trust Wallet and Metamask to see
+                      additional information about each wallet and benefits.<br>
                       Trust Wallet: <a class="faq_link" target="_blank"
                         href="https://trustwallet.com">https://trustwallet.com</a><br>
                       Metamask Wallet: <a class="faq_link" target="_blank"
@@ -929,11 +954,15 @@
                 <div class="card animation" data-animation="fadeInUp" data-animation-delay="0.8s">
                   <div class="card-header" id="headingTWC">
                     <h6 class="mb-0"> <a class="collapsed" data-toggle="collapse" href="#collapseTWC"
-                        aria-expanded="false" aria-controls="collapseTWC"><span>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        aria-expanded="false" aria-controls="collapseTWC"><span> How do I buy BharatNft
+                          Coin?
                           </span><ins></ins></a> </h6>
                   </div>
                   <div id="collapseTWC" class="collapse" aria-labelledby="headingTWC" data-parent="#accordion1">
-                    <div class="card-body">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tempore repudiandae eius, aliquid illum hic saepe rerum vero? Corporis quia, architecto neque eligendi perferendis incidunt adipisci praesentium quis tempore, ipsa reiciendis!<br>
+                    <div class="card-body">Following steps when clicking buy, will redirect to pancakeswap. On
+                      pancakeswap, you will be able to exchange BNB (Binance coin) for
+                      BharatNft Coin. Here is link below with full guide to pancakeswap
+                      for additional information.<br>
                       <a class="faq_link" target="_blank"
                         href="https://academy.binance.com/en/articles/a-guide-to-pancakeswap">https://academy.binance.com/en/articles/a-guide-to-pancakeswap</a>
                     </div>
@@ -942,11 +971,13 @@
                 <div class="card animation" data-animation="fadeInUp" data-animation-delay="0.8s">
                   <div class="card-header" id="headingBSC">
                     <h6 class="mb-0"> <a class="collapsed" data-toggle="collapse" href="#collapseBSC"
-                        aria-expanded="false" aria-controls="collapseBSC"><span> Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        aria-expanded="false" aria-controls="collapseBSC"><span>  How do I connect my wallet to Binance
+                          Smart Chain?
                           </span><ins></ins></a> </h6>
                   </div>
                   <div id="collapseBSC" class="collapse" aria-labelledby="headingBSC" data-parent="#accordion1">
-                    <div class="card-body">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tempore repudiandae eius, aliquid illum hic saepe rerum vero? Corporis quia, architecto neque eligendi perferendis incidunt adipisci praesentium quis tempore, ipsa reiciendis! <a class="faq_link" target="_blank"
+                    <div class="card-body">Here are links with steps to link Trust Wallet and Metamask to
+                      Binance Smart Chain<br> <a class="faq_link" target="_blank"
                         href="https://academy.binance.com/en/articles/connecting-trust-wallet-to-binance-smart-chain-bsc">https://academy.binance.com/en/articles/connectingtrust-wallet-to-binance-smart-chain-bsc</a><br>
                       Metamask: <a class="faq_link" target="_blank"
                         href="https://academy.binance.com/en/articles/connecting-metamask-to-binance-smart-chain">https://academy.binance.com/en/articles/connectingmetamask-to-binance-smart-chain</a>
@@ -956,11 +987,13 @@
                 <div class="card animation" data-animation="fadeInUp" data-animation-delay="0.8s">
                   <div class="card-header" id="headingTWCoin">
                     <h6 class="mb-0"> <a class="collapsed" data-toggle="collapse" href="#collapseTWCoin"
-                        aria-expanded="false" aria-controls="collapseTWCoin"><span>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        aria-expanded="false" aria-controls="collapseTWCoin"><span>Where can I see the charting for BharatNft coin?
                           </span><ins></ins></a> </h6>
                   </div>
                   <div id="collapseTWCoin" class="collapse" aria-labelledby="headingTWCoin" data-parent="#accordion1">
-                    <div class="card-body">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tempore repudiandae eius, aliquid illum hic saepe rerum vero? Corporis quia, architecto neque eligendi perferendis incidunt adipisci praesentium quis tempore, ipsa reiciendis!
+                    <div class="card-body">Charting with be available on Dex.guru. Also can scroll on the
+                      homepage to partners/listing section and click Dex.guru icon and get
+                      directly to Toon World coin chart.
                     </div>
                   </div>
                 </div>
@@ -971,34 +1004,35 @@
                 <div class="card animation" data-animation="fadeInUp" data-animation-delay="0.4s">
                   <div class="card-header" id="headingPS">
                     <h6 class="mb-0"> <a data-toggle="collapse" href="#collapsePS" aria-expanded="true"
-                        aria-controls="collapsePS"><span>Lorem ipsum dolor sit amet consectetur</span><ins></ins></a> </h6>
+                        aria-controls="collapsePS"><span>Private Sale</span><ins></ins></a> </h6>
                   </div>
                   <div id="collapsePS" class="collapse show" aria-labelledby="headingPS" data-parent="#accordion2">
-                    <div class="card-body">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum deleniti fuga dolore error, neque, et ut necessitatibus qui facere culpa laboriosam rerum accusamus aperiam enim doloremque itaque quos impedit? Rerum.</div>
+                    <div class="card-body">An early stage investment round for strategic investors with a considerable amount of investible funds.</div>
                   </div>
                 </div>
                 <div class="card animation" data-animation="fadeInUp" data-animation-delay="0.4s">
                   <div class="card-header" id="headingListing">
                     <h6 class="mb-0"> <a data-toggle="collapse" href="#collapseListing" aria-expanded="true"
-                        aria-controls="collapseListing"><span>Lorem ipsum dolor sit amet consectetur</span><ins></ins></a> </h6>
+                        aria-controls="collapseListing"><span>Listing</span><ins></ins></a> </h6>
                   </div>
                   <div id="collapseListing" class="collapse" aria-labelledby="headingListing" data-parent="#accordion2">
-                    <div class="card-body">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt maiores dolores blanditiis ipsum cum obcaecati totam error libero, odio possimus voluptatibus sequi architecto consequuntur eos quod adipisci quidem asperiores voluptates? Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi similique itaque velit quos quibusdam et unde a dolores explicabo libero soluta, rem expedita iusto molestias at debitis fugit optio dicta!. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nemo quas, corrupti sint harum libero beatae doloribus consectetur? Molestiae, quam facere alias animi et voluptates itaque, magnam quisquam ratione quaerat cum.</div>
+                    <div class="card-body">When an exchange offers trading pairs for a particular asset, this action is known as “listing” the asset. In traditional markets, this means that a companies shares (or material asset) are available to be traded on that particular stock exchange. In general, this means that the company being listed has passed certain thresholds for financial and regulatory viability in addition to a degree of trust from the exchange. Thus, by the act of listing, the exchange is signaling that the shares of company/asset are known to be of a base threshold of quality.</div>
                   </div>
                 </div>
                 <div class="card animation" data-animation="fadeInUp" data-animation-delay="0.4s">
                   <div class="card-header" id="headingFive">
                     <h6 class="mb-0"> <a data-toggle="collapse" href="#collapseFive" aria-expanded="true"
-                        aria-controls="collapseFive"><span>Lorem ipsum dolor sit amet consectetur</span><ins></ins></a> </h6>
+                        aria-controls="collapseFive"><span>Initial Coin Offering (ICO)</span><ins></ins></a> </h6>
                   </div>
                   <div id="collapseFive" class="collapse" aria-labelledby="headingFive" data-parent="#accordion2">
-                    <div class="card-body">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Architecto excepturi voluptatem ab, alias blanditiis consequuntur, eos eaque illum odit provident at, possimus debitis officiis aliquid beatae deserunt voluptate rerum facere. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi maiores omnis porro qui exercitationem, quas architecto iste similique dolor et, incidunt eos rem eveniet sint minus expedita maxime? Ratione, ad.</div>
+                    <div class="card-body">Initial Coin Offering (ICO) is an innovative approach for raising funds through the use of digital currencies (cryptocurrencies). Such a strategy is more prevalent in cryptocurrency projects that are yet to fully developed their blockchain-based product, service, or platform. The funds collected on ICO events are normally received as Bitcoin (BTC) or Ether (ETH), but in some cases, fiat currency may also be taken as payment.</div>
                   </div>
                 </div>
                 <div class="card animation" data-animation="fadeInUp" data-animation-delay="0.6s">
                   <div class="card-header" id="headingSix">
                     <h6 class="mb-0"> <a class="collapsed" data-toggle="collapse" href="#collapseSix"
-                        aria-expanded="false" aria-controls="collapseSix"><span>Lorem ipsum dolor sit amet consectetur
+                        aria-expanded="false" aria-controls="collapseSix"><span>Initial Exchange Offering
+                          (IEO)
                           </span><ins></ins></a> </h6>
                   </div>
                   <div id="collapseSix" class="collapse" aria-labelledby="headingSix" data-parent="#accordion2">
@@ -1009,11 +1043,12 @@
                 <div class="card animation" data-animation="fadeInUp" data-animation-delay="0.8s">
                   <div class="card-header" id="headingSeven">
                     <h6 class="mb-0"> <a class="collapsed" data-toggle="collapse" href="#collapseSeven"
-                        aria-expanded="false" aria-controls="collapseSeven"><span>Lorem ipsum dolor sit amet consectetur
+                        aria-expanded="false" aria-controls="collapseSeven"><span>   Integrated Circuit
+                          (IC)
                           </span><ins></ins></a> </h6>
                   </div>
                   <div id="collapseSeven" class="collapse" aria-labelledby="headingSeven" data-parent="#accordion2">
-                    <div class="card-body">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque non unde quas quia magni. Perspiciatis veniam non aspernatur dolore culpa dicta id aliquid eligendi, doloremque, illo magnam harum repellat accusantium? Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam obcaecati assumenda dolorum, officiis deserunt, quidem modi sed voluptates dolores earum provident exercitationem harum aliquid perferendis adipisci impedit blanditiis dolor nostrum.
+                    <div class="card-body">An integrated circuit (IC) is a small chip, typically made of silicon, that holds a set of electronic parts such as transistors, resistors or capacitors. Such small chips are widely used today and are present in most of the electronic devices. They can perform calculations, and also function as microprocessors, amplifiers, oscillators, and data storage.
                     </div>
                   </div>
                 </div>
@@ -1024,47 +1059,49 @@
                 <div class="card animation" data-animation="fadeInUp" data-animation-delay="0.4s">
                   <div class="card-header" id="headingNine">
                     <h6 class="mb-0"> <a data-toggle="collapse" href="#collapseNine" aria-expanded="true"
-                        aria-controls="collapseNine"><span>Lorem ipsum dolor sit amet consectetur</span><ins></ins></a>
+                        aria-controls="collapseNine"><span>Transactions on the creative world</span><ins></ins></a>
                     </h6>
                   </div>
                   <div id="collapseNine" class="collapse show" aria-labelledby="headingNine" data-parent="#accordion3">
-                    <div class="card-body">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Necessitatibus beatae impedit accusantium, possimus iste cupiditate reprehenderit enim quia quos deleniti voluptatibus velit itaque nostrum expedita nemo? Sapiente corporis soluta mollitia? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Odio odit, ducimus, maiores quam fugit cupiditate quis quasi placeat sed reiciendis facere esse aliquam aperiam quia? Aliquid commodi distinctio corporis ullam?
+                    <div class="card-body">The framework of this innovation emphasizes a community of creative content creators and users who engage their brand on their journey to stardom. To facilitate and actualize this concept, a fund is necessary to validate and carry out transactions. On the BharatNft platform, the BharatNft  Coin takes up a similar role. Holders of the Coin can sell and purchase creative content/pieces. Web template codes, fonts, music, artworks, and other creatives assets are accessible from anywhere globally and anytime, either for communication, entertainment, or creative teams usage
                     </div>
                   </div>
                 </div>
                 <div class="card animation" data-animation="fadeInUp" data-animation-delay="0.6s">
                   <div class="card-header" id="headingTen">
                     <h6 class="mb-0"> <a class="collapsed" data-toggle="collapse" href="#collapseTen"
-                        aria-expanded="false" aria-controls="collapseTen"><span>Lorem ipsum dolor sit amet consectetur
+                        aria-expanded="false" aria-controls="collapseTen"><span>Partnering with other
+                          creatives
                           </span><ins></ins></a> </h6>
                   </div>
                   <div id="collapseTen" class="collapse" aria-labelledby="headingTen" data-parent="#accordion3">
                     <div class="card-body">
-                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Veniam repellat tenetur eligendi illum aperiam sequi ea voluptate ad! Facere exercitationem sed incidunt accusamus minima ratione nobis placeat repellat rerum aliquid! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero veniam odio hic quidem est velit iure deleniti aliquid qui excepturi, fugiat architecto illum consectetur ipsam impedit rem assumenda ratione sapiente.
+                      To position BharatNft as a global creative ecosystem, interactions between creatives and partnerships are essential. Considering the current traditional creative outfit landscape, the creative collaboration is a significant upside that we have decided to amplify. BharatNft will be the focal point and primary driver of this idea. As a holder, you can interact and collaborate with partners on projects ranging from design, recording, mobile developments, and other creative efforts.
                     </div>
                   </div>
                 </div>
                 <div class="card animation" data-animation="fadeInUp" data-animation-delay="0.8s">
                   <div class="card-header" id="headingEleven">
                     <h6 class="mb-0"> <a class="collapsed" data-toggle="collapse" href="#collapseEleven"
-                        aria-expanded="false" aria-controls="collapseEleven"><span>Lorem ipsum dolor sit amet consectetur
+                        aria-expanded="false" aria-controls="collapseEleven"><span>Rewards and Loyalty
+                        
                         </span><ins></ins></a>
                     </h6>
                   </div>
                   <div id="collapseEleven" class="collapse" aria-labelledby="headingEleven" data-parent="#accordion3">
-                    <div class="card-body">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsum sequi totam doloremque hic, incidunt veniam iure minus quia quod reprehenderit odit non iusto eligendi possimus fugit. Autem blanditiis debitis maiores. Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor autem consectetur, molestias necessitatibus iste totam ipsa tempora possimus nam laboriosam facilis illum corporis, eum sed accusamus nesciunt et neque sint.
+                    <div class="card-body">We have laid down plans to set up Projects that reward BharatNft coin holders for their support. To support both creatives and users, we can establish a thriving ecosystem for the $BharatNft token. In addition, we are working to develop engaging events, games, and milestones that will further expand the use cases of the BharatNft Coin.
                     </div>
                   </div>
                 </div>
                 <div class="card animation" data-animation="fadeInUp" data-animation-delay="0.8s">
                   <div class="card-header" id="headingStaking">
                     <h6 class="mb-0"> <a class="collapsed" data-toggle="collapse" href="#collapseStaking"
-                        aria-expanded="false" aria-controls="collapseStaking"><span>Lorem ipsum dolor sit amet consectetur</span><ins></ins></a>
+                        aria-expanded="false" aria-controls="collapseStaking"><span>Stacking</span><ins></ins></a>
                     </h6>
                   </div>
                   <div id="collapseStaking" class="collapse" aria-labelledby="headingStaking" data-parent="#accordion3">
-                    <div class="card-body">Simply put, staking is a lesser resource-intensive alternative to mining.
-                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos exercitationem alias ut odit, quo inventore nulla. Laborum quis earum odio ipsa! Sit, facere ipsa molestias quaerat iusto quod quisquam nemo? Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus qui iure culpa cumque in nam cupiditate sint laboriosam itaque consectetur odio repudiandae tempora, illum nobis, veniam voluptate asperiores repellat aut!
+                    <div class="card-body">
+                      Simply put, staking is a lesser resource-intensive alternative to mining. Owners of BharatNft can hold funds in their wallets to support the operations and security of the platform and Binance Smart Chain alike. In return, using a set of algorithms, they qualify for rewards that are paid in BharatNft. Essentially, users can stake on favorite creatives, support them, and earn rewards while doing so. It is worth keeping in mind that staking on BharatNft is relatively safe. Besides its tendency to help users earn passive income on assets, we have a dedicated team of experienced professionals and protocols to shield users from bugs and other malware.
                     </div>
                   </div>
                 </div>
@@ -1075,53 +1112,54 @@
                 <div class="card animation" data-animation="fadeInUp" data-animation-delay="0.4s">
                   <div class="card-header" id="headingSupply">
                     <h6 class="mb-0"> <a data-toggle="collapse" href="#collapseSupply" aria-expanded="true"
-                        aria-controls="collapseSupply"><span>Lorem ipsum dolor sit amet consectetur</span><ins></ins></a>
+                        aria-controls="collapseSupply"><span>What is the supply?</span><ins></ins></a>
                     </h6>
                   </div>
                   <div id="collapseSupply" class="collapse show" aria-labelledby="headingSupply"
                     data-parent="#accordion4">
-                    <div class="card-body">Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore numquam perferendis voluptatibus ipsam pariatur rem, adipisci libero nulla nostrum quae, officia doloremque omnis dicta, ipsa quibusdam maiores. Cumque, iure ab. Lorem ipsum dolor sit amet consectetur, adipisicing elit. In aperiam, facere earum est dolores culpa dolorem aliquid sed omnis voluptates eligendi! Sunt odio molestiae deserunt incidunt autem omnis inventore minima!</div>
+                    <div class="card-body">Total supply: 1,000,000,000,000,000
+                      5% intial burn has begun +more to come as we meet progressive milestones and 55% of the total supply will be locked for period of time through third party defi asset manager service mudra lock (https:// mudra.website). We will provide transparency and certificates to verify and valid supply locks and timeframe. As a commitment to project and ensuring we protect your investment and show our true value in making this project a success.</div>
                   </div>
                 </div>
                 <div class="card animation" data-animation="fadeInUp" data-animation-delay="0.4s">
                   <div class="card-header" id="headingThirteen">
                     <h6 class="mb-0"> <a data-toggle="collapse" href="#collapseThirteen" aria-expanded="true"
-                        aria-controls="collapseThirteen"><span>Lorem ipsum dolor sit amet consectetur</span><ins></ins></a>
+                        aria-controls="collapseThirteen"><span>Circulating Supply</span><ins></ins></a>
                     </h6>
                   </div>
                   <div id="collapseThirteen" class="collapse" aria-labelledby="headingThirteen"
                     data-parent="#accordion4">
-                    <div class="card-body">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Natus fuga, alias optio perspiciatis magni ex culpa perferendis nostrum commodi architecto ab delectus voluptatibus accusantium totam magnam. Quam voluptatibus alias odio?</div>
+                    <div class="card-body">The term circulating supply refers to the number of cryptocurrency coins or tokens that are publicly available and circulating in the market.</div>
                   </div>
                 </div>
                 <div class="card animation" data-animation="fadeInUp" data-animation-delay="0.6s">
                   <div class="card-header" id="headingFourteen">
                     <h6 class="mb-0"> <a class="collapsed" data-toggle="collapse" href="#collapseFourteen"
-                        aria-expanded="false" aria-controls="collapseFourteen"><span>Lorem ipsum dolor sit amet consectetur</span><ins></ins></a> </h6>
+                        aria-expanded="false" aria-controls="collapseFourteen"><span>Cloud</span><ins></ins></a> </h6>
                   </div>
                   <div id="collapseFourteen" class="collapse" aria-labelledby="headingFourteen"
                     data-parent="#accordion4">
-                    <div class="card-body">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Delectus necessitatibus aperiam tenetur ratione eum reiciendis illo fugiat sequi, consequuntur veritatis, illum nesciunt. Porro vitae placeat optio hic deleniti. Expedita, delectus.</div>
+                    <div class="card-body">In computer science, the term cloud refers to a shared pool of resources, which are made available to multiple users through the Internet. Such resources are usually related to data storage and computing power, but may also include different types of services, applications, networks, and servers.</div>
                   </div>
                 </div>
                 <div class="card animation" data-animation="fadeInUp" data-animation-delay="0.8s">
                   <div class="card-header" id="headingFifteen">
                     <h6 class="mb-0"> <a class="collapsed" data-toggle="collapse" href="#collapseFifteen"
-                        aria-expanded="false" aria-controls="collapseFifteen"><span>Lorem ipsum dolor sit amet consectetur</span><ins></ins></a>
+                        aria-expanded="false" aria-controls="collapseFifteen"><span>Colocation</span><ins></ins></a>
                     </h6>
                   </div>
                   <div id="collapseFifteen" class="collapse" aria-labelledby="headingFifteen" data-parent="#accordion4">
-                    <div class="card-body">Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi vel consectetur at quam magni magnam odit et temporibus nostrum assumenda, nam eaque reiciendis veritatis voluptatum vero sapiente aut. Libero, non!
+                    <div class="card-body">In general, colocation (or Colo) refers to the establishment of a shared facility to store IT equipment and specialized hardware of multiple individuals or companies.
                     </div>
                   </div>
                 </div>
                 <div class="card animation" data-animation="fadeInUp" data-animation-delay="1s">
                   <div class="card-header" id="headingSixteen">
                     <h6 class="mb-0"> <a class="collapsed" data-toggle="collapse" href="#collapseSixteen"
-                        aria-expanded="false" aria-controls="collapseSixteen"><span>Lorem ipsum dolor sit amet consectetur</span><ins></ins></a> </h6>
+                        aria-expanded="false" aria-controls="collapseSixteen"><span>Coin</span><ins></ins></a> </h6>
                   </div>
                   <div id="collapseSixteen" class="collapse" aria-labelledby="headingSixteen" data-parent="#accordion4">
-                    <div class="card-body">Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus fuga esse nemo dicta magnam, consectetur magni accusamus optio, dignissimos maxime nostrum corporis dolor laborum dolores. Nobis dolorum molestiae cumque assumenda. Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda eligendi voluptatibus corrupti nemo aperiam eum eveniet ab facere, eius ea iure architecto explicabo vitae. Alias nam quia vitae commodi inventore?</div>
+                    <div class="card-body">A cryptocurrency or digital cash that is independent of any other blockchain or platform. The key feature of a coin is that of a currency, and the term may also be used to describe a cryptocurrency asset that is not a token.</div>
                   </div>
                 </div>
               </div>
@@ -1131,12 +1169,12 @@
                 <div class="card animation" data-animation="fadeInUp" data-animation-delay="0.4s">
                   <div class="card-header" id="headingThirteen">
                     <h6 class="mb-0"> <a data-toggle="collapse" href="#collapseThirteen" aria-expanded="true"
-                        aria-controls="collapseThirteen"><span>Lorem ipsum dolor sit amet consectetur</span><ins></ins></a>
+                        aria-controls="collapseThirteen"><span>What is BharatNft?</span><ins></ins></a>
                     </h6>
                   </div>
                   <div id="collapseThirteen" class="collapse show" aria-labelledby="headingThirteen"
                     data-parent="#accordion4">
-                    <div class="card-body">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Non doloremque eum delectus ut. Ipsam ut maiores atque veniam consectetur aut quis vero porro! Nam illum et quis quo in enim! Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde eius, ipsum quaerat quibusdam tempora accusamus sequi laudantium repudiandae vero a molestias excepturi ut deleniti recusandae commodi iure aliquid fuga exercitationem. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quas nisi quaerat doloremque, officiis illo molestiae minus dolorum omnis animi inventore labore quo dignissimos. Nisi veniam sunt quia rerum eos amet.
+                    <div class="card-body">BharatNft was founded on the belief that every creative has the right to be independent and free in their journey to attaining stardom. We believe decentralization of the creative economy holds the key to empower creatives globally to gain complete and better control over their creative content. We are the first innovation to leverage the distributed ledger framework to enable fair remuneration and engagement of every creative content and service, irrespective of the niche or target audience, through the ownership of our cryptographic Coin, $BharatNft.
                     </div>
                   </div>
                 </div>
@@ -1149,12 +1187,12 @@
                 <div class="card animation" data-animation="fadeInUp" data-animation-delay="0.4s">
                   <div class="card-header" id="headingRewardHold">
                     <h6 class="mb-0"> <a data-toggle="collapse" href="#collapseRewardHold" aria-expanded="true"
-                        aria-controls="collapseRewardHold"><span>Lorem ipsum dolor sit amet consectetur</span><ins></ins></a>
+                        aria-controls="collapseRewardHold"><span>The reward for Holding $BharatNft</span><ins></ins></a>
                     </h6>
                   </div>
                   <div id="collapseRewardHold" class="collapse show" aria-labelledby="headingRewardHold"
                     data-parent="#accordion4">
-                    <div class="card-body">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Corporis minima quas, pariatur incidunt optio velit iure reiciendis sunt porro in asperiores nisi fugiat expedita, accusantium voluptatum earum aliquam quam nesciunt! Lorem, ipsum dolor sit amet consectetur adipisicing elit. Pariatur aut repellendus voluptatibus odit corporis mollitia consequuntur ab. Vel, aut fugiat ex repudiandae voluptate magni veniam, ducimus reprehenderit quos eveniet sed! Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quam autem expedita culpa ab blanditiis repellendus porro, animi ut praesentium sequi deleniti corrupti error. Ipsam quas doloremque quia delectus expedita aspernatur.
+                    <div class="card-body">We will set aside 4.5% of every transaction and redistribute them anytime holding $BharatNft in the form of $BNB. However, holders and mandated to wait for seven days before they can access these rewards. In addition, if holders keep adding over 2% of their overall $BharatNft balance within the waiting duration, the waiting duration automatically accumulates with the cycle. Let’s put this in perspective; suppose on the first day of the cycle, a holder adds over 5% $BharatNft. In that case, the holder must wait for an additional 8.4 hours (5% of seven days) alongside the previously highlighted seven days. Selling has no effect on the cycle. However, if a user collects over 2 BNB, 15% will be set aside to buy back $BharatNft at market price and subsequently burn. This is a practical approach to tackle inflation and keep the token value stable in the long term. The total $BNB in the reward pool determines the amount accessible for holders. Thus, rewards vary with available $BNB.
                     </div>
                   </div>
                 </div>
@@ -1332,7 +1370,8 @@
   <!-- END SECTION CONTACT -->
 
   <!-- START FOOTER SECTION -->
-  <footer>
+  
+  <footer id="footer">
     <div class="top_footer light_blue_dark_bg footer_new_bg" data-z-index="1" data-parallax="scroll"
       data-image-src="<?php echo base_url(); ?>assest/website/images/footer_bg.png">
       <div class="container">
@@ -1345,7 +1384,8 @@
             </div>
             <div class="footer_desc home_footer">
               <p class="animation" data-animation="fadeInUp" data-animation-delay="0.4s">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero nihil soluta tenetur ea, illo recusandae quisquam veniam totam, sapiente mollitia beatae eligendi, consequatur omnis perferendis ad debitis atque tempora sequi.
+              Bharat NFT is a Community-Driven Multi-Chain IDO/TGE platform with Launchpad Aggregation, Unique Distribution Model, and more.
+Bharat NFT aims to provide the much-needed early-stage support for projects through its launchpad aggregation and IDO/TGE services while offering great incentives for Bharat stakers through in-house protocols.
               </p>
             </div>
           </div>
@@ -1354,29 +1394,29 @@
               data-animation-delay="0.2s">Quick
               Links</h4>
             <ul class="footer_link list_arrow home_footer_link">
-              <li class="animation" data-animation="fadeInUp" data-animation-delay="0.2s"><a href="index.html">Home</a>
+              <li class="animation" data-animation="fadeInUp" data-animation-delay="0.2s"><a href="<?php echo base_url(); ?>">Home</a>
               </li>
               <li class="animation" data-animation="fadeInUp" data-animation-delay="0.2s"><a
-                  href="">Bharat NFT
+                  href="javascript:;">Bharat NFT
                   World</a>
               </li>
-              <li class="animation" data-animation="fadeInUp" data-animation-delay="0.2s"><a href="https://Bharat NFT.world/"
+              <!-- <li class="animation" data-animation="fadeInUp" data-animation-delay="0.2s"><a href="https://Bharat NFT.world/"
                   target="_blank">Bharat NFT
                   World</a>
-              </li>
+              </li> -->
               <li class="animation" data-animation="fadeInUp" data-animation-delay="0.4s"><a
-                  href="" target="_blank">Whitepaper</a></li>
-              <li class="animation" data-animation="fadeInUp" data-animation-delay="0.3s"><a
+                  href="javascript:;" >Whitepaper</a></li>
+              <!-- <li class="animation" data-animation="fadeInUp" data-animation-delay="0.3s"><a
                   href="javascript:;">Dextool</a>
-              </li>
-              <li class="animation" data-animation="fadeInUp" data-animation-delay="0.5s"><a href="faq.html">FAQ</a>
+              </li> -->
+              <li class="animation" data-animation="fadeInUp" data-animation-delay="0.5s"><a href="#faq">FAQ</a>
               </li>
               <li class="animation" data-animation="fadeInUp" data-animation-delay="0.6s"><a
-                  href="contact.html">Contact</a></li>
+                  href="#contact">Contact</a></li>
             </ul>
           </div>
           <div class="col-lg-5 col-md-6 res_md_mt_30 res_sm_mt_20">
-            <div class="newsletter_form home_footer_frm">
+            <div class="newsletter_form home_footer_frm" id="news">
               <h4 class="footer_title border_title animation home_footer_title" data-animation="fadeInUp"
                 data-animation-delay="0.2s">
                 Newsletter</h4>
@@ -1410,6 +1450,7 @@
       </div>
     </div>
   </footer>
+  
   <!-- END FOOTER SECTION -->
 
   <a href="#" class="scrollup btn-default"><i class="ion-ios-arrow-up"></i></a>
